@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 
-@interface Alipay : CDVPlugin 
+@interface CDVAlipay : CDVPlugin 
     @property NSString *appId;
     @property NSString *callbackId;
 

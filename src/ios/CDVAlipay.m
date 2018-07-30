@@ -1,7 +1,7 @@
-#import "Alipay.h"
+#import "CDVAlipay.h"
 #import <AlipaySDK/AlipaySDK.h>
 
-@implementation Alipay
+@implementation CDVAlipay
 
 @synthesize appId, callbackId;
 
