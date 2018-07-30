@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-gubnoi-alipay",
-  "version": "0.0.4",
+  "name": "cordova-plugin-alipay",
+  "version": "0.0.1",
   "description": "Cordova Plugin Alipay",
   "cordova": {
-    "id": "cordova-plugin-gubnoi-alipay",
+    "id": "cordova-plugin-alipay",
     "platforms": [
       "android",
       "ios",
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jing-zhou/cordova-plugin-alipay"
+    "url": "https://github.com/k-kbox/cordova-plugin-alipay"
   },
   "bugs": {
-    "url": "https://github.com/jing-zhou/cordova-plugin-alipay/issues"
+    "url": "https://github.com/k-kbox/cordova-plugin-alipay/issues"
   },
   "keywords": [
     "cordova",
