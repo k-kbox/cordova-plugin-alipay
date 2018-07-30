@@ -1,4 +1,4 @@
-package org.apache.cordova.ali;
+package org.apache.cordova.alipay;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -24,7 +24,7 @@ public class Alipay extends CordovaPlugin {
     private static final String RESULT_STATUS = "resultStatus";
     private static final String RESULT = "result";
     private static final String MEMO = "memo";
-    private static final String TAG = "org.apache.cordova.ali.Alipay";
+    private static final String TAG = "org.apache.cordova.alipay.Alipay";
     private static final String Execute = "Execute: ";
     private static final String with = " with: ";
     private static final String unsupported_param = "Unsported parameter:";
