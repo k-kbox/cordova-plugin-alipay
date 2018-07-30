@@ -31,9 +31,17 @@ public class Alipay extends CordovaPlugin {
     private static final String callAli = "Calling Alipay with: ";
     private static final String aliReturn = "Alipay returns:";
     private static final String maniJson = "Manipulating json";
+
+    //@Override
+    protected void pluginInitialize() {
+        super.pluginInitialize();
+        Log.d(TAG, "plugin initialized.");
+    }
+
     @Override
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
         super.initialize(cordova, webView);
+        Log.d(TAG, "plugin initialized.");
     }
 
     @Override

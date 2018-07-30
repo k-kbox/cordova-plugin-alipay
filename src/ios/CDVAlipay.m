@@ -8,12 +8,15 @@
 -(void)pluginInitialize
 {
     self.appId = [[self.commandDelegate settings] objectForKey:@"alipayid"];
+    NSLog(@"cordova-plugin-alipay has been initialized. APP_ID: %@.", self.appId);
 }
 
 - (void)pay:(CDVInvokedUrlCommand*)command
 {
     self.callbackId = command.callbackId;
     NSString* orderString = [command.arguments objectAtIndex:0];
+
+    NSLog(@"cordova-plugin-alipay pay. OrderInfo: %@.", orderString);
 
     if (!orderString) {
         [self.commandDelegate sendPluginResult:[CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:orderString]

@@ -53,8 +53,9 @@
     <platform name="ios">
     
         <config-file parent="/*" target="config.xml">
-            <feature name="CDVAlipay">
+            <feature name="Alipay">
                 <param name="ios-package" value="CDVAlipay"/>
+                <param name="onload" value="true" />
             </feature>
             <string name="alipayid">$APP_ID</string>
         </config-file>
