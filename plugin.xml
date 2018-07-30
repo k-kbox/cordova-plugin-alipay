@@ -8,8 +8,8 @@
     <description>Cordova Plugin Alipay</description>
     <license>Apache 2.0</license>
     <keywords>cordova,alipay</keywords>
-    <repo>https://github.com/jing-zhou/cordova-plugin-alipay</repo>
-    <issue>https://github.com/jing-zhou/cordova-plugin-alipay/issues</issue>
+    <repo>https://github.com/k-kbox/cordova-plugin-alipay</repo>
+    <issue>https://github.com/k-kbox/cordova-plugin-alipay/issues</issue>
     
     <js-module name="Alipay" src="www/alipay.js">
       <clobbers target="cordova.plugins.alipay"/>

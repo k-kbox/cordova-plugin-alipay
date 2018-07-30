@@ -1,4 +1,4 @@
-# cordova-plugin-gubnoi-alipay（更新至2018-06-01）
+# cordova-plugin-alipay（更新至2018-06-01）
 ### 前言：
 支付宝的cordova插件其实在github上已经有很多了，但是都已经是以前的版本了。在2016年11月的时候支付宝进行了一次更新，支付宝的SDK升级到2.0版本。以前在app中使用支付宝进行支付叫做移动支付，11月之后更名为APP支付。
 ###### 本插件仅支持《APP支付》，不支持移动支付
@@ -16,9 +16,9 @@
 ***
 ### 安装
 ###### 在线安装
-    cordova plugin add cordova-plugin-gubnoi-alipay --variable APP_ID=[your AppId]
+    cordova plugin add cordova-plugin-alipay --variable APP_ID=[your AppId]
 
-    cordova plugin add https://github.com/jing-zhou/cordova-plugin-alipay --variable APP_ID=[your AppId]
+    cordova plugin add https://github.com/k-kbox/cordova-plugin-alipay --variable APP_ID=[your AppId]
 
 ###### 本地安装
 下载插件到本地
