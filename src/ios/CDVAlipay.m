@@ -7,7 +7,7 @@
 
 -(void)pluginInitialize
 {
-    self.appId = [[self.commandDelegate settings] objectForKey:@"alipayid"];
+    self.appId = [[self.commandDelegate settings] objectForKey:@"alipay_id"];
     NSLog(@"cordova-plugin-alipay has been initialized. APP_ID: %@.", self.appId);
 }
 
