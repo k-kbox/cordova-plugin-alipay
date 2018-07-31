@@ -57,7 +57,7 @@
                 <param name="ios-package" value="CDVAlipay"/>
                 <param name="onload" value="true" />
             </feature>
-            <string name="alipayid">$APP_ID</string>
+            <preference name="alipayid" >$APP_ID</preference>
         </config-file>
     
         <framework src="CoreTelephony.framework" weak="true"/>
