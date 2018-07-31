@@ -21,12 +21,12 @@
 
       <config-file target="res/xml/config.xml" parent="/*">
           <feature name="Alipay">
-              <param name="android-package" value="org.apache.cordova.alipay.Alipay"/>
+              <param name="android-package" value="com.cordova.plugins.alipay.Alipay"/>
               <param name="onload" value="true" />
           </feature>
       </config-file>
       
-      <source-file src="src/android/Alipay.java" target-dir="src/org/apache/cordova/alipay"/>
+      <source-file src="src/android/Alipay.java" target-dir="src/com/cordova/plugins/alipay"/>
       
       <lib-file src="src/android/libs/alipaySdk-20180601.jar"/>
 
